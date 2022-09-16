@@ -95,7 +95,8 @@ const { content } = Astro.props;
 			<div class="content"><slot /></div>
 		</div>
 		<footer>
-			<a href="/projects" class="button">View More</a>
+			<a href={content.link} class="button">Open App</a>
+			<a href={content.github} class="button">View GitHub</a>
 		</footer>
 		<Footer />
 	</body>

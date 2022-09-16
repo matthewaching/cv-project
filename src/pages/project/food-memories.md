@@ -1,6 +1,8 @@
 ---
 layout: ../../layouts/project.astro
 title: Food Memories
+link: https://foodmemories.mching.dev/
+github: https://github.com/matthewaching/food-memories
 client: Self
 publishDate: 2020-03-02 00:00:00
 img: ../../../assets/food-memories.png

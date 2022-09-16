@@ -1,6 +1,8 @@
 ---
 layout: ../../layouts/project.astro
 title: Recipe Generator
+link: https://recipegenerator.mching.dev/
+github: https://github.com/matthewaching/recipe-generator
 client: Self
 publishDate: 2020-03-02 00:00:00
 img: ../../../assets/recipe-generator.png

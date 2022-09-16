@@ -1,6 +1,8 @@
 ---
 layout: ../../layouts/project.astro
 title: CV Website
+link: https://www.mching.dev/
+github: https://github.com/matthewaching/cv-project
 client: Self
 publishDate: 2020-03-04 00:00:00
 img: ../../../assets/cv-website.png
