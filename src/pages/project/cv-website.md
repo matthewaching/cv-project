@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: CV Website
 client: Self
 publishDate: 2020-03-04 00:00:00
-img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
+img: ../../../assets/cv-website.png
 description: |
   Personal website bootstrapped with Astro and written in React
 tags:
@@ -15,12 +15,12 @@ tags:
   - css3
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+This is my personal web portfolio used to display my software projects.
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+This project was bootstrapped using Astro, a cutting-edge JavaScript framework that leverages Static Site Generation (SSG) to dramatically reduce bundle sizes. A defining characteristic of Astro is its ability to import components written for other frameworks (React, Angular, Svelte, etc) and run them on demand.
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+As a result, the project is able to import modules designed for React seemlessly (such as the typed introduction seen on the homepage) as well as enable a React developer such as myself to code within a comfortable environment.
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
+Since the framework is designed around running its native .astro components, there was a slight learning curve when it comes to writing for Astro instead of React. However, the Astro syntax is quite intuitive with regard to native JSX and Typescript which significantly shortened the learning process.
 
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+Tailwind was selected as the UI solution for this project. As a CSS+ technology, it eases the process of writing baseline CSS or even SCSS while maintaining the flexibility and ownership of the design language versus a UI framework such as Material UI or Bootstrap.

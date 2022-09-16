@@ -102,7 +102,7 @@ const featuredProject = projects[0];
 
 			@media (min-width: 1200px) {
 				.grid {
-					grid-template-columns: 2fr 1fr;
+					grid-template-columns: 1fr 2fr;
 				}
 			}
 
@@ -220,13 +220,6 @@ const featuredProject = projects[0];
 		<main class="wrapper">
 			<div class="grid">
 				<div class="section">
-					<h3 class="sectionTitle">Current Project</h3>
-					<PortfolioPreview project={featuredProject} />
-					<div class="buttonContainer">
-						<a href="/products/" class="button">View All</a>
-					</div>
-				</div>
-				<div class="section">
 					<h3 class="sectionTitle">About me</h3>
 					<p class="bio">
 						<span>Hi, I'm Matt!</span> I am a software developer with a focus on web development, particularly within the React ecosystem. Feel free to poke around my portfolio to view my recent projects.
@@ -234,6 +227,13 @@ const featuredProject = projects[0];
 					<p>
 						<a href="/about">Read more</a>
 					</p>
+				</div>
+				<div class="section">
+					<h3 class="sectionTitle">Current Project</h3>
+					<PortfolioPreview project={featuredProject} />
+					<div class="buttonContainer">
+						<a href="/projects/" class="button">View All</a>
+					</div>
 				</div>
 			</div>
 		</main>
