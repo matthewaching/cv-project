@@ -26,3 +26,5 @@ The project is a functional CRUD app consisting of a React frontend and Next.js 
 The app design is constructed primarily with Material UI, a React component library based off of Google's Material Design system. The library provides pre-stylized components with integrated functionality while maintaining design flexibility with the inline sx CSS prop.
 
 The app stores and persists information in a PostgreSQL database hosted on Railway.app. The server interacts with the database through Prisma, an ORM that interfaces serverside TypeScript to SQL. The app can then utilize Next.js endpoints to send Prisma queries.
+
+Database modification is protected by NextAuth. Users are able to generate One-Time Passwords via e-mail to be granted editing credentials.
