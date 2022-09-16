@@ -5,7 +5,7 @@ client: Self
 publishDate: 2020-03-04 00:00:00
 img: ../../../assets/cv-website.png
 description: |
-  Personal website bootstrapped with Astro and written in React
+  Personal website and software portfolio
 tags:
   - react
   - typescript

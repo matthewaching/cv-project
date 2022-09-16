@@ -11,16 +11,16 @@ tags:
   - javascript(es6)
   - next.js
   - materialui
+  - postgresql
+  - prisma
   - html5
   - css3
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+This is a culinary journal that serves to record any memorable dishes I have eaten or cooked.
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+The project is a functional CRUD app consisting of a React frontend and Next.js backend that interfaces with a PostgreSQL database. Next.js was selected due to its intuitive features such as nested page routing, built-in API routes, and native SSG and SSR capabilities, lending a great deal of flexibility with regard to app infrastructure.
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+The app design is constructed primarily with Material UI, a React component library based off of Google's Material Design system. The library provides pre-stylized components with integrated functionality while maintaining design flexibility with the inline sx CSS prop.
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
-
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+The app stores and persists information in a PostgreSQL database hosted on Railway.app. The server interacts with the database through Prisma, an ORM that interfaces serverside TypeScript to SQL. The app can then utilize Next.js endpoints to send Prisma queries.
