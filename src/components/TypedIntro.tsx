@@ -10,7 +10,7 @@ return (
         <TypeIt options={{
           speed: 75,
         }}>
-          Hi there! My name is<br/><SuperStrong>Matthew Ching</SuperStrong> <br/>and I am a software developer. <br/><br/> Thanks for stopping by.
+          Hi there! My name is<br/><SuperStrong>Matthew Ching</SuperStrong><br/>and I am a software developer.<br/><br/>Thanks for stopping by.
         </TypeIt>
       </div>
     );
