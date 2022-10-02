@@ -28,7 +28,7 @@ The project is a functional CRUD app consisting of a React frontend and Next.js 
 The app design is constructed primarily from Material UI, a React component library based off of Google's Material Design system. The library provides pre-stylized components with integrated functionality while maintaining design flexibility with the inline 'sx' CSS prop. The library was selected due to its popularity within modern-day web design, extensive documentation, and degree of customization across the board.
 <br/>
 <br/>
-Information storage and persistence is accomplished through a PostgreSQL database hosted on Railway.app, a cloud-based platform that specializes in database hosting. The server interacts with the database through Prisma, an ORM that interfaces serverside JavaScript to SQL. This integrates well with the built-in Next.js API endpoints, resulting in a very lightweight backend solution.
+Information storage and persistence is accomplished through a PostgreSQL database hosted on Railway.app. Images are stored in a AWS S3 bucket. The server interacts with the database through Prisma, an ORM that interfaces serverside JavaScript to SQL. This integrates well with the built-in Next.js API endpoints, resulting in a very lightweight backend solution.
 <br/>
 <br/>
 The app was intially developed using services provided by Google's Firebase (Hosting, Authentication, and Realtime Database) due to its advertised ease-of-use as a Backend-as-a-Service. However, I found that Firebase operated in a relatively proprietary manner and eventually transitioned off of it in favor of more conventional and instructional technologies such as PostgreSQL and Prisma.
