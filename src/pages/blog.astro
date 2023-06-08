@@ -1,0 +1,49 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+import BlogPost from '../components/BlogPost.astro';
+
+const posts = (await Astro.glob('./blog/**/*.md'))
+	.filter(post => !!post.frontmatter.showPost)
+	.sort(
+		(a, b) =>
+			new Date(b.frontmatter.postedOn).valueOf() - new Date(a.frontmatter.postedOn).valueOf()
+	);
+---
+
+<html lang="en">
+	<head>
+		<MainHead
+			title="Blog Posts | Matthew Ching"
+			description="Read blog posts written by Matthew Ching"
+		/>
+		<style>
+			body,
+			.wrapper,
+			.projects-title,
+			.grid {
+				box-sizing: content-box;
+			}
+			.grid {
+				display: grid;
+				grid-gap: 3rem;
+			}
+			.projects-title {
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+				font-size: var(--f-u8);
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1 class="projects-title">Blog Posts</h1>
+			<div class="grid">
+				{posts.map((post) => <BlogPost post={post} />)}
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
